@@ -1,4 +1,4 @@
 tinycorelinux.jp
 ================
 
-Will be an update by this weekend!
+Now I'm working on it!
