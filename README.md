@@ -1,12 +1,14 @@
 tinycorelinux.jp
 ================
 
-Building remastered linux for Japanese users.
+Building remastered Tiny Core Linux for Japanese users.
 
-Progress Report~ (11/16/2013)
+Progress Report~ (11/17/2013)
 -----------
 
-I’ll be working on this again tomorrow after taking some exam.
+**Done with major surgery! Now some more test, then repackaging and documenting!**
+
+![progress_20131117](i18n_progress_20131117.png)
 
 ### DONE
 
@@ -17,18 +19,15 @@ I’ll be working on this again tomorrow after taking some exam.
 * timezone
 * urxvt
 * mplusfont
+* XProgs
 
+### NEED MORE TESTING
 
-### HALF WAY THROUGH
+* scim (installed)
+* scim-anthy (installed)
+* seamonkey (installed)
+* anthy (installed)
 
-* XProgs (installed, all translated, but has font issue.)
-* scim (installed, but not tested)
-* scim-anthy (installed, but not tested)
-* seamonkey (installed, but not tested)
-* anthy (installed, but not tested)
-
-
- Turns out, TC5 has a good hand on supporting UTF-8.
-They didn't turn on the feature as it increase the size.
-The part around displaying fonts is buggy though...  
-patch... i need more patch... and water...
+  Turns out, TC5 has a good hand in supporting UTF-8.
+Developer didn't turn the feature on as the size matters for them.
+The part around displaying fonts had to be patched.
